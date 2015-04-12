@@ -5,6 +5,7 @@ HDF5         0.4.13
 Graphs       0.5.2
 BayesNets    0.1.0
 StreamStats  0.0.2
+LaTeXStrings 0.1.2
 
 Smile        0.1.1+
 Discretizers 0.0.1-
