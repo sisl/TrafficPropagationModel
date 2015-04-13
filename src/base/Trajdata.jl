@@ -31,10 +31,6 @@ export isnum
 
 # ------------------------
 
-#=
-CONTROL STATUS VARIABLE FOR BOSCH VEHICLE IS CENSORED
-=#
-
 const CARIND_EGO                        = -1
 const CARID_EGO                         = -1
 
