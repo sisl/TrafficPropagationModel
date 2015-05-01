@@ -1,5 +1,5 @@
 # TrafficPropagationModel
-Model details, parameters, and associated code for traffic propagation models associated with "Traffic Propagation Models for Estimating Collision Risk"
+Model details, parameters, and associated code for traffic propagation models associated with "Traffic Propagation Models for Estimating Collision Risk" submitted to ITSC 2015.
 
 All code in this repository uses the Julia language. The versions for each package are available in REQUIRE.
 
