@@ -15,3 +15,7 @@ Models are released under the official package release and are stored in JLD fil
 [Model Learning](http://nbviewer.ipython.org/github/sisl/TrafficPropagationModel/blob/master/src/learning/Learning.ipynb)
 
 [Model Application](http://nbviewer.ipython.org/github/sisl/TrafficPropagationModel/blob/master/src/learning/Application.ipynb)
+
+##  Issues
+
+Please submit questions or comments to the primary paper author or submit a Github issue.
