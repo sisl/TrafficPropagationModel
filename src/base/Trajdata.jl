@@ -4,56 +4,6 @@
 # the DataFrame version contains raw info obtained from csv files
 # the PrimaryDataset type contains processed data
 
-# TrajData DataFrame Definition:
-
-	# id::Integer         # car identification number
-	# posEx::Real         # position in the ego frame relative to the ego car
-	# posEy::Real     
-	# velEx::Real         # velocity in the ego frame relative to the ego car
-	# velEy::Real
-	# posGx::Real         # global position of the car in UTM
-	# posGy::Real
-	# velGx::Real         # global velocity of the car in UTM
-	# velGy::Real
-	# yawG::Real          # heading angle with respect to UTM
-	# lane::Integer       # lane number
-	# lane_offset::Real   # offset the car from the centerline
-	# lane_tangent::Real  # local heading angle of the centerline
-	# angle_to_lane::Real # heading of the car with respect to the centerline
-	# velLs::Real         # velocity of the car projected along its lane
-	# velLd::Real         # velocity of the car projected perpendicularly to the lane
-	# posRLs::Real        # position of the car along the rightmost lane
-	# posRLd::Real        # position of the car from the rightmost lane
-
-	# frame::Integer
-	# time::Real
-	# control_status::Integer # the state of the car's control system (autonomous, etc.)
-
-	# # global position [m](UTM)
-	# posGx::Real
-	# posGy::Real
-	# posGz::Real
-
-	# # orientation [rad]
-	# rollG::Real
-	# pitchG::Real
-	# yawG::Real
-
-	# # odom velocity [m/s](ego)
-	# velEx::Real
-	# velEy::Real
-	# velEz::Real
-
-	# # lane, 0=our lane, -1 = left, 1 = right, etc.
-	# lane::Integer
-	
-	# # offset with resect to center line [m]
-	# lane_offset::Real
-
-	# #  closest centerline point
-	# centerline_closest_x::Real
-	# centerline_closest_y::Real
-
 module Trajdata
 
 using DataFrames
@@ -80,10 +30,6 @@ export ncars_in_frame, add_car_slot!, frames_contain_carid, extract_continuous_t
 export isnum
 
 # ------------------------
-
-#=
-CONTROL STATUS VARIABLE FOR BOSCH VEHICLE IS CENSORED
-=#
 
 const CARIND_EGO                        = -1
 const CARID_EGO                         = -1
