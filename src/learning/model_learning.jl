@@ -1,9 +1,4 @@
 
-# -------------------------------------------------------
-
-push!(LOAD_PATH, "/home/tim/Documents/wheelerworkspace/Bosch/model/")
-
-# -------------------------------------------------------
 
 using DataFrames
 using StreetMap
@@ -21,7 +16,7 @@ import BayesNets: statistics
 
 # --------
 
-const BASE_OUTPUT_FOLDER = "/media/tim/DATAPART1/Data/Bosch/processed/plots/"
+const BASE_OUTPUT_FOLDER = "sample/folder"
 
 type ModelSet
 	name :: String

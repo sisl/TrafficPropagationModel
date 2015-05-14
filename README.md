@@ -13,6 +13,6 @@ Models are released under the official package release and are stored in JLD fil
 
 [Data Processing](http://nbviewer.ipython.org/github/sisl/TrafficPropagationModel/blob/master/src/processing/Processing.ipynb)
 
-Model Learning (coming soon!)
+[Model Learning](http://nbviewer.ipython.org/github/sisl/TrafficPropagationModel/blob/master/src/learning/Learning.ipynb)
 
 Model Application (coming soon!)
