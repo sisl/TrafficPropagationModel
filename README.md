@@ -1,10 +1,14 @@
 # TrafficPropagationModel
 
-Model details, parameters, and associated code for traffic propagation models associated with "Traffic Propagation Models for Estimating Collision Risk" submitted to ITSC 2015.
+Model details, parameters, and associated code for traffic propagation models associated with [A Probabilistic Framework
+for Microscopic Traffic Propagation](http://timallanwheeler.com/aboutme/papers/wheeler2015probabilistic.pdf), ITSC 2015.
 
 All code in this repository uses the Julia language. The versions for each package are available in REQUIRE.
 
 Models are released under the official package release and are stored in JLD files. Values can be extracted using the HDF5 package.
+
+The more recent paper, [Analysis of Microscopic Behavior Models
+for Probabilistic Modeling of Driver Behavior](http://timallanwheeler.com/aboutme/papers/wheeler2016propagation.pdf), may also be of interest.
 
 ## Documentation
 
